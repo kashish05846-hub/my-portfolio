@@ -27,7 +27,7 @@ const Resume = () => {
 
             <h3>Diploma in Information Technology</h3>
 
-            <p>Your College Name</p>
+            <p>Hewett Polytechnic Lucknow</p>
 
             <p>Add your education details here.</p>
           </div>
