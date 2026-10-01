@@ -25,7 +25,7 @@ const Resume = () => {
           <div className="resume-section">
             <h2>Education</h2>
 
-            <h3>Your Course / Degree</h3>
+            <h3>Diploma in Information Technology</h3>
 
             <p>Your College Name</p>
 
