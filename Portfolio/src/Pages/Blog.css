@@ -1,0 +1,39 @@
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.blog-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-7px);
+  border-color: #38bdf8;
+}
+
+.blog-category {
+  color: #38bdf8;
+  font-weight: 700;
+}
+
+.blog-card h2 {
+  color: white;
+  margin: 15px 0;
+}
+
+.blog-card p {
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+.read-more {
+  display: inline-block;
+  color: #38bdf8;
+  margin-top: 15px;
+}

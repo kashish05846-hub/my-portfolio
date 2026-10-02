@@ -1,5 +1,5 @@
 import { FaDownload } from "react-icons/fa";
-
+import "./Resume.css";
 const Resume = () => {
   return (
     <section className="section">

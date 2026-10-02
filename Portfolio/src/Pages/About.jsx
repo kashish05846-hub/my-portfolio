@@ -1,5 +1,5 @@
 import { FaCode, FaLaptopCode, FaDatabase, FaServer } from "react-icons/fa";
-
+import "./About.css";
 const About = () => {
   return (
     <section className="section">

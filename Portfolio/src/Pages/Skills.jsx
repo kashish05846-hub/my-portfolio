@@ -6,7 +6,7 @@ import {
   FaNodeJs,
   FaGitAlt,
 } from "react-icons/fa";
-
+import "./Skills.css";
 const Skills = () => {
   const skills = [
     {

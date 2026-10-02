@@ -1,3 +1,4 @@
+import "./Blog.css";
 const Blog = () => {
   const blogs = [
     {
