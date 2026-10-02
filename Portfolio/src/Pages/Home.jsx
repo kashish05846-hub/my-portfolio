@@ -45,11 +45,14 @@ const Home = () => {
               </div>
 
               <div className="social-links">
-                <a href="#" target="_blank">
+                <a href="https://github.com/kashish05846-hub" target="_blank">
                   <FaGithub />
                 </a>
 
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/ashish-nishad-9294533b8"
+                  target="_blank"
+                >
                   <FaLinkedin />
                 </a>
               </div>
