@@ -1,4 +1,4 @@
-import { FaAlignCenter, FaDownload } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import "./Resume.css";
 import { useRef } from "react";
 import html2pdf from "html2pdf.js";
