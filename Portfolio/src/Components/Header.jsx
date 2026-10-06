@@ -1,7 +1,5 @@
 import "./Header.css";
-
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,20 +12,20 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <nav className="navbar">
-          <Link to="/" className="logo" onClick={closeMenu}>
+          <a href="#home" className="logo" onClick={closeMenu}>
             Ashish<span>.</span>
-          </Link>
+          </a>
 
           <div className="nav-links desktop-menu">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/skills">Skills</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/blog">Blog</Link>
-            <Link to="/contact" className="contact-link">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact" className="contact-link">
               Contact
-            </Link>
+            </a>
           </div>
 
           <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
@@ -39,33 +37,27 @@ const Header = () => {
 
         {menuOpen && (
           <div className="mobile-menu">
-            <Link to="/" onClick={closeMenu}>
+            <a href="#home" onClick={closeMenu}>
               Home
-            </Link>
-
-            <Link to="/about" onClick={closeMenu}>
+            </a>
+            <a href="#about" onClick={closeMenu}>
               About
-            </Link>
-
-            <Link to="/skills" onClick={closeMenu}>
+            </a>
+            <a href="#skills" onClick={closeMenu}>
               Skills
-            </Link>
-
-            <Link to="/projects" onClick={closeMenu}>
+            </a>
+            <a href="#projects" onClick={closeMenu}>
               Projects
-            </Link>
-
-            <Link to="/resume" onClick={closeMenu}>
+            </a>
+            <a href="#resume" onClick={closeMenu}>
               Resume
-            </Link>
-
-            <Link to="/blog" onClick={closeMenu}>
+            </a>
+            <a href="#blog" onClick={closeMenu}>
               Blog
-            </Link>
-
-            <Link to="/contact" onClick={closeMenu}>
+            </a>
+            <a href="#contact" onClick={closeMenu}>
               Contact
-            </Link>
+            </a>
           </div>
         )}
       </div>

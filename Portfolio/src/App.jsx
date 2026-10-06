@@ -1,5 +1,3 @@
-import { Routes, Route } from "react-router-dom";
-
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
@@ -16,15 +14,33 @@ const App = () => {
     <>
       <Header />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div id="home">
+        <Home />
+      </div>
+
+      <div id="about">
+        <About />
+      </div>
+
+      <div id="skills">
+        <Skills />
+      </div>
+
+      <div id="projects">
+        <Projects />
+      </div>
+
+      <div id="resume">
+        <Resume />
+      </div>
+
+      <div id="blog">
+        <Blog />
+      </div>
+
+      <div id="contact">
+        <Contact />
+      </div>
 
       <Footer />
     </>
